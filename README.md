@@ -2,7 +2,7 @@
 
 https://hub.docker.com/r/phpmyadmin/phpmyadmin/
 
-##Environment variables summary
+## Environment variables summary
 
 - `PMA_ARBITRARY` when set to 1 connection to the arbitrary server will be allowed
 - `PMA_HOST` define address/host name of the MySQL server
