@@ -12,13 +12,13 @@ metadata:
 spec:
   tls:
   - hosts:
-    - pma.stouffcapital.com
+    - pma.stouffcapital.tech
     secretName: pma-stouffcapital-service-tls
   backend:
     serviceName: default-http-backend
     servicePort: 80
   rules:
-  - host: pma.stouffcapital.com
+  - host: pma.stouffcapital.tech
     http:
       paths:
       - path: /

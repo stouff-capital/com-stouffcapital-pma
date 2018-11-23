@@ -14,6 +14,11 @@ https://hub.docker.com/r/phpmyadmin/phpmyadmin/
 - `PMA_USER` and `PMA_PASSWORD` define username to use for config authentication method
 - `PMA_ABSOLUTE_URI` define user-facing URI
 
+## k8s deployment
+
+1. `kubectl create ns utilities`
+1. `kubect create -f deploy/kubernetes/pma.yaml`
+
 
 ## Dockerfile
 
